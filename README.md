@@ -30,5 +30,16 @@ MVC - M = Dados
 
 Segregação de interfaces
 
-  
+Uma classe deve depender 
+
+o que é o principio de  inversao de dependencia
+
+  Definição formal
+Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
+Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+Você deve depender de interfaces (ou abstrações) e não de implementações concretas.
+Isso facilita a troca de componentes (por exemplo, trocar um banco de dados ou um método de envio de email) sem alterar o restante do sistema.
+
+  Quando utilizar herança
+
       
