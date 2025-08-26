@@ -41,5 +41,35 @@ Você deve depender de interfaces (ou abstrações) e não de implementações c
 Isso facilita a troca de componentes (por exemplo, trocar um banco de dados ou um método de envio de email) sem alterar o restante do sistema.
 
   Quando utilizar herança
+Utiliza-se herança na programação para reutilizar código, organizar classes numa hierarquia lógica do tipo "é um", e criar novas
+classes que estendam e modifiquem o comportamento das classes existentes, promovendo especialização e evitando duplicação
 
-      
+26/08/2025
+
+Livro: Fundamentos da arquitetura de software: uma abordagem de engenharia
+
+* Características da arquitetura:
+  -
+
+* Princípios do design:
+  -
+
+* Desisões da arquitetura:
+  -
+
+  O papel do arquiteto de software é amplo e pode variar, mas existem oito expectativas principais que definem sua eficiência:
+
+Tomar decisões arquiteturais que orientem as escolhas técnicas da equipe, equilibrando direção e autonomia.
+
+Analisar continuamente a arquitetura para garantir que ela permaneça viável diante das mudanças tecnológicas e de negócio.
+
+Manter-se atualizado com as tendências tecnológicas e do setor para tomar decisões de longo prazo acertadas.
+
+Assegurar conformidade das equipes com as decisões e princípios arquiteturais para garantir a integridade do sistema.
+
+Ter exposição diversificada a tecnologias, plataformas e linguagens para lidar com ambientes heterogêneos.
+
+Conhecer o domínio do negócio, facilitando comunicação e alinhamento com stakeholders.
+
+Desenvolver habilidades interpessoais para liderar, comunicar e facilitar o trabalho em equipe.
+  
