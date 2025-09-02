@@ -49,27 +49,39 @@ classes que estendam e modifiquem o comportamento das classes existentes, promov
 Livro: Fundamentos da arquitetura de software: uma abordagem de engenharia
 
 * Características da arquitetura:
-  -
+  -Requisitos não-funcionais
 
 * Princípios do design:
+  -Cada um tem seu repositorio de banco
   -
 
 * Desisões da arquitetura:
-  -
+  -Quando escolhemos a melhor arquitetura para utilizar
 
   O papel do arquiteto de software é amplo e pode variar, mas existem oito expectativas principais que definem sua eficiência:
 
-Tomar decisões arquiteturais que orientem as escolhas técnicas da equipe, equilibrando direção e autonomia.
+Tomar decisões arquiteturais que orientem as escolhas técnicas da equipe, equilibrando direção e autonomia,
 
-Analisar continuamente a arquitetura para garantir que ela permaneça viável diante das mudanças tecnológicas e de negócio.
-
-Manter-se atualizado com as tendências tecnológicas e do setor para tomar decisões de longo prazo acertadas.
-
-Assegurar conformidade das equipes com as decisões e princípios arquiteturais para garantir a integridade do sistema.
-
-Ter exposição diversificada a tecnologias, plataformas e linguagens para lidar com ambientes heterogêneos.
-
-Conhecer o domínio do negócio, facilitando comunicação e alinhamento com stakeholders.
-
+Analisar continuamente a arquitetura para garantir que ela permaneça viável diante das mudanças tecnológicas e de negócio;
+Manter-se atualizado com as tendências tecnológicas e do setor para tomar decisões de longo prazo acertadas;
+Assegurar conformidade das equipes com as decisões e princípios arquiteturais para garantir a integridade do sistema;
+Ter exposição diversificada a tecnologias, plataformas e linguagens para lidar com ambientes heterogêneos;
+Conhecer o domínio do negócio, facilitando comunicação e alinhamento com stakeholders;
 Desenvolver habilidades interpessoais para liderar, comunicar e facilitar o trabalho em equipe.
+
+01/09/25
+
+Expectativas de um Arquiteto
+Definir o papel de um arquiteto de software se mostra tão difícil quanto definir a arquitetura de software. Pode variar desde um programador especializado até definir a direção técnica estratégica para a empresa. Em vez de perder tempo com a busca inútil de definir a função, recomendamos focar as expectativas de um arquiteto.
+
+Existem oito expectativas principais para um arquiteto de software, independentemente de qualquer função, cargo ou descrição do trabalho:
+
+Tomar decisões de arquitetura
+Analisar continuamente a arquitetura
+Manter-se atualizado com as últimas tendências
+Assegurar a conformidade com as decisões
+Exposição e experiência diversificadas
+Ter conhecimento sobre o domínio do negócio
+Ter habilidades interpessoais
+Entender e lidar bem com questões políticas
   
