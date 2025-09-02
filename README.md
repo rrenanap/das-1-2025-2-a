@@ -84,4 +84,15 @@ Exposição e experiência diversificadas
 Ter conhecimento sobre o domínio do negócio
 Ter habilidades interpessoais
 Entender e lidar bem com questões políticas
+
+Aula 02/09
+Fundamentos da Arquitetura de Software - Pensamento Arquitetônico
+
+Resuma a diferençca entre: Arquitetura e Design
+
+O arquiteto faz sua função primeiro, como, as características da arquitetura, estilo e estrutura dos componentes. um arquiteto é responsável por coisas como analisar os requisitos comerciais para extrair e definir as características da arquitetura (os “atributos”), selecionar quais padrões e estilos da arquitetura se encaixariam no domínio do problema e criar componentes (blocos de construção do sistema). Então os artefatos criados a partir dessas atividades são passados para a equipe de desenvolvimento, responsável por criar diagramas de classes para cada componente, criar telas de interface do usuário e desenvolver e testar o código-fonte.
+
+Como é a formação do conhecimento de um arquiteto modelo T?
+
+O escopo dos detalhes técnicos difere entre desenvolvedores e arquitetos. Diferentemente de um desenvolvedor, que deve ter bastante profundidade técnica para realizar seu trabalho, um arquiteto de software deve ter uma grande amplitude técnica para pensar como arquiteto e ver as coisas de um ponto de vista da arquitetura. Como arquiteto, amplitude é mais importante do que profundidade. Como os arquitetos devem tomar decisões que combinam capacidades com restrições técnicas, um grande conhecimento de variadas soluções é valioso. Assim, para um arquiteto, o curso de ação inteligente seria sacrificar uma especialização duramente conquistada e usar esse tempo para ampliar seu portfólio
   
