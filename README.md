@@ -20,6 +20,15 @@ Acoplamento
 
 SOLID
 
+- Usar a orientação a objetos da maneira correta.
+  S - Classe com responsabilidade única.
+  O - Uma classe deve estar fechada para modificações e aberta para extensões.
+  L - Trocar uma chamada de uma classe filho por outra classe filho mantém a funcionalidade do código.
+  I - Uso de interface para comunicação entre as classes. Evita comunicação direta entre elas.
+  D - Classe deve depender de uma abstração e não de implementação concreta. (Controller -> <<Interface>> -> Service)
+      - Evitar extends entre classe pai e filho onde a classe filho pode assumir o papel de outra classe filho.
+      - O método deve usar somente os seguintes métodos: de sua própria classe, de objetos passados como parâmetros, de objetos criados pelo próprio método, de atributos do próprio método. (Não usar variáveis globais)
+
 Solid foi criado por Robert Martin, é usar a Orientação a objetos de uma maneira correta 
 
 Sigle Responsability
@@ -53,7 +62,6 @@ Livro: Fundamentos da arquitetura de software: uma abordagem de engenharia
 
 * Princípios do design:
   -Cada um tem seu repositorio de banco
-  -
 
 * Desisões da arquitetura:
   -Quando escolhemos a melhor arquitetura para utilizar
@@ -88,7 +96,7 @@ Entender e lidar bem com questões políticas
 Aula 02/09
 Fundamentos da Arquitetura de Software - Pensamento Arquitetônico
 
-Resuma a diferençca entre: Arquitetura e Design
+Diferençca entre Arquitetura e Design
 
 O arquiteto faz sua função primeiro, como, as características da arquitetura, estilo e estrutura dos componentes. um arquiteto é responsável por coisas como analisar os requisitos comerciais para extrair e definir as características da arquitetura (os “atributos”), selecionar quais padrões e estilos da arquitetura se encaixariam no domínio do problema e criar componentes (blocos de construção do sistema). Então os artefatos criados a partir dessas atividades são passados para a equipe de desenvolvimento, responsável por criar diagramas de classes para cada componente, criar telas de interface do usuário e desenvolver e testar o código-fonte.
 
