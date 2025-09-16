@@ -16,5 +16,13 @@ public class Publisher {
     public void setMainState(String mainState) {
         this.mainState = mainState;
     }
+    public void subscribe(Subscriber assinante) {
+        subscribers.add(assinante);
+    }
+    public void notifySubscribers() {
+        for (Subscriber assinante : subscribers) {
+            assinante.update(mainState);
+        }
+    }
 }
 
