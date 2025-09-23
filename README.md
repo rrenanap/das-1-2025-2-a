@@ -1,37 +1,40 @@
 # das-1-2025-2-a
 
-Princípios de projeto de código
-Padronização de código 
-Ocultmento de informação
-Coesão
-Acoplamento
+* Princípios de projeto de código
+* Padronização de código 
+* Ocultmento de informação
+* Coesão
+* Acoplamento
+_________________________________________________________________________________________________________________
 
-Abstração
+*Abstração*
   Abstração é a formatar de forma compreensível todo o seu projeto.
 
-Ocultação de informação
+*Ocultação de informação*
   Encapsulamento é quando não temos acesso a todos os componentes
 
-Coesão
+*Coesão*
   Faz uma única tarefa, entidades não tem conecçao com banco, tela... , apenas representação dos dados
 
-Acoplamento
+*Acoplamento*
   toda vez que é alterado uma parte do código, altera em outro ponto também (Dependencia)
 
-SOLID
+___________________________________________________________________________________________________________________
+
+**SOLID**
 
 - Usar a orientação a objetos da maneira correta.
   S - Classe com responsabilidade única.
   O - Uma classe deve estar fechada para modificações e aberta para extensões.
   L - Trocar uma chamada de uma classe filho por outra classe filho mantém a funcionalidade do código.
   I - Uso de interface para comunicação entre as classes. Evita comunicação direta entre elas.
-  D - Classe deve depender de uma abstração e não de implementação concreta. (Controller -> <<Interface>> -> Service)
+  D - Classe deve depender de uma abstração e não de implementação concreta.
       - Evitar extends entre classe pai e filho onde a classe filho pode assumir o papel de outra classe filho.
       - O método deve usar somente os seguintes métodos: de sua própria classe, de objetos passados como parâmetros, de objetos criados pelo próprio método, de atributos do próprio método. (Não usar variáveis globais)
 
-Solid foi criado por Robert Martin, é usar a Orientação a objetos de uma maneira correta 
+Solid foi criado por Robert Martin, objetivo é usar a orientação a objetos de uma maneira correta.
 
-Sigle Responsability
+* Sigle Responsability
 
 MVC - M = Dados
       V = HTML
@@ -41,12 +44,12 @@ Segregação de interfaces
 
 Uma classe deve depender 
 
-o que é o principio de  inversao de dependencia
+**O que é o principio de  inversão de dependência**
 
   Definição formal
 Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
 Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
-Você deve depender de interfaces (ou abstrações) e não de implementações concretas.
+Você deve depender de interfaces e não de implementações concretas.
 Isso facilita a troca de componentes (por exemplo, trocar um banco de dados ou um método de envio de email) sem alterar o restante do sistema.
 
   Quando utilizar herança
@@ -68,9 +71,8 @@ Livro: Fundamentos da arquitetura de software: uma abordagem de engenharia
 
   O papel do arquiteto de software é amplo e pode variar, mas existem oito expectativas principais que definem sua eficiência:
 
-Tomar decisões arquiteturais que orientem as escolhas técnicas da equipe, equilibrando direção e autonomia,
-
-Analisar continuamente a arquitetura para garantir que ela permaneça viável diante das mudanças tecnológicas e de negócio;
+Tomar decisões arquiteturais que orientem as escolhas técnicas da equipe, equilibrando direção e autonomia, Analisar
+continuamente a arquitetura para garantir que ela permaneça viável diante das mudanças tecnológicas e de negócio;
 Manter-se atualizado com as tendências tecnológicas e do setor para tomar decisões de longo prazo acertadas;
 Assegurar conformidade das equipes com as decisões e princípios arquiteturais para garantir a integridade do sistema;
 Ter exposição diversificada a tecnologias, plataformas e linguagens para lidar com ambientes heterogêneos;
@@ -84,21 +86,21 @@ Definir o papel de um arquiteto de software se mostra tão difícil quanto defin
 
 Existem oito expectativas principais para um arquiteto de software, independentemente de qualquer função, cargo ou descrição do trabalho:
 
-Tomar decisões de arquitetura
-Analisar continuamente a arquitetura
-Manter-se atualizado com as últimas tendências
-Assegurar a conformidade com as decisões
-Exposição e experiência diversificadas
-Ter conhecimento sobre o domínio do negócio
-Ter habilidades interpessoais
-Entender e lidar bem com questões políticas
+* Tomar decisões de arquitetura
+* Analisar continuamente a arquitetura
+* Manter-se atualizado com as últimas tendências
+* Assegurar a conformidade com as decisões
+* Exposição e experiência diversificadas
+* Ter conhecimento sobre o domínio do negócio
+* Ter habilidades interpessoais
+* Entender e lidar bem com questões políticas
 
 Aula 02/09
 Fundamentos da Arquitetura de Software - Pensamento Arquitetônico
 
 Diferençca entre Arquitetura e Design
 
-O arquiteto faz sua função primeiro, como, as características da arquitetura, estilo e estrutura dos componentes. um arquiteto é responsável por coisas como analisar os requisitos comerciais para extrair e definir as características da arquitetura (os “atributos”), selecionar quais padrões e estilos da arquitetura se encaixariam no domínio do problema e criar componentes (blocos de construção do sistema). Então os artefatos criados a partir dessas atividades são passados para a equipe de desenvolvimento, responsável por criar diagramas de classes para cada componente, criar telas de interface do usuário e desenvolver e testar o código-fonte.
+O arquiteto faz sua função primeiro, como, as características da arquitetura, estilo e estrutura dos componentes. um arquiteto é responsável por coisas como analisar os requisitos comerciais para extrair e definir as características da arquitetura, selecionar quais padrões e estilos da arquitetura se encaixariam no domínio do problema e criar componentes (blocos de construção do sistema). Então os artefatos criados a partir dessas atividades são passados para a equipe de desenvolvimento, responsável por criar diagramas de classes para cada componente, criar telas de interface do usuário e desenvolver e testar o código-fonte.
 
 Como é a formação do conhecimento de um arquiteto modelo T?
 
