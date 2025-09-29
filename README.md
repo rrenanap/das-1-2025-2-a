@@ -60,6 +60,8 @@ Isso facilita a troca de componentes (por exemplo, trocar um banco de dados ou u
 Utiliza-se herança na programação para reutilizar código, organizar classes numa hierarquia lógica do tipo "é um", e criar novas
 classes que estendam e modifiquem o comportamento das classes existentes, promovendo especialização e evitando duplicação
 
+___________________________________________________________________________________________________________________
+
 26/08/2025
 
 Livro: Fundamentos da arquitetura de software: uma abordagem de engenharia
@@ -83,6 +85,8 @@ Ter exposição diversificada a tecnologias, plataformas e linguagens para lidar
 Conhecer o domínio do negócio, facilitando comunicação e alinhamento com stakeholders;
 Desenvolver habilidades interpessoais para liderar, comunicar e facilitar o trabalho em equipe.
 
+___________________________________________________________________________________________________________________
+
 01/09/25
 
 Expectativas de um Arquiteto
@@ -99,6 +103,8 @@ Existem oito expectativas principais para um arquiteto de software, independente
 * Ter habilidades interpessoais
 * Entender e lidar bem com questões políticas
 
+___________________________________________________________________________________________________________________
+
 Aula 02/09
 Fundamentos da Arquitetura de Software - Pensamento Arquitetônico
 
@@ -109,4 +115,6 @@ O arquiteto faz sua função primeiro, como, as características da arquitetura,
 Como é a formação do conhecimento de um arquiteto modelo T?
 
 O escopo dos detalhes técnicos difere entre desenvolvedores e arquitetos. Diferentemente de um desenvolvedor, que deve ter bastante profundidade técnica para realizar seu trabalho, um arquiteto de software deve ter uma grande amplitude técnica para pensar como arquiteto e ver as coisas de um ponto de vista da arquitetura. Como arquiteto, amplitude é mais importante do que profundidade. Como os arquitetos devem tomar decisões que combinam capacidades com restrições técnicas, um grande conhecimento de variadas soluções é valioso. Assim, para um arquiteto, o curso de ação inteligente seria sacrificar uma especialização duramente conquistada e usar esse tempo para ampliar seu portfólio
+
+___________________________________________________________________________________________________________________
   
