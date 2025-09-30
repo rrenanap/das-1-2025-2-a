@@ -118,3 +118,20 @@ O escopo dos detalhes técnicos difere entre desenvolvedores e arquitetos. Difer
 
 ___________________________________________________________________________________________________________________
   
+29/09/2025 - Segundo Bimestre, Vambora.
+
+https://learn.microsoft.com/pt-br/azure/architecture/patterns/circuit-breaker?wt.mc_id=AZ-MVP-5003638
+
+Circuit breaker
+
+O padrão Circuit Breaker ajuda a lidar com falhas que podem levar diferentes períodos de tempo para serem resolvidas quando um aplicativo se conecta a um serviço ou recurso remoto. Um disjuntor bloqueia temporariamente o acesso a um serviço com falha depois de detectar falhas. Essa ação impede repetidas tentativas malsucedidas para que o sistema possa se recuperar efetivamente. Esse padrão pode melhorar a estabilidade e a resiliência de um aplicativo.
+
+Quais são os estados do circuit breaker?
+
+Closed - Open - Half-Open
+
+Closed, está tudo ok
+Open, estado de falha
+Half-open, Estado de alerta
+
+ 
