@@ -181,6 +181,14 @@ Conflitos de desenvolvimento: Com muitos desenvolvedores trabalhando na mesma ba
 Atualizações restritivas: Para atualizar uma parte do sistema, é necessário implantar toda a aplicação, o que pode ser demorado. 
 Dificuldade de escalar: Escalar partes específicas do sistema pode ser um desafio, pois a escala envolve todo o aplicativo. 
 
+  Transações distribuídas
+    Arquitetos e desenvolvedores têm por certo as transações em um mundo da arquitetura monolítica porque são muito simples e fáceis de gerenciar. 
+    Os commits e rollbacks padrão, executados a partir das frameworks de persistência, utilizam as transações ACID (atomicidade, consistência, isolamento,
+    durabilidade) para assegurar que os dados sejam atualizados de um modo correto para garantir uma alta consistência e integridade deles. Esse não é o caso nas arquiteturas distribuídas.
+    As arquiteturas distribuídas contam com o que é chamado de consistência eventual para assegurar que os dados processados por unidades de implementação separadas estejam,
+    em algum ponto não especificado no tempo, todos sincronizados com um estado consistente.
+    Esse é um dos trade-offs da arquitetura distribuída: alta escalabilidade, desempenho e disponibilidade em troca da consistência e da integridade dos dados.
+
 
 
 
