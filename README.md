@@ -140,6 +140,76 @@ Half-open, Estado de alerta
 
 
  ___________________________________________________________________________________________________________________
- {
+ 
   07/10/2025
+  
+___________________________________________________________________________________________________________________
+
+  13/10/2025
+
+___________________________________________________________________________________________________________________
+
+ 14/10/2025
+
+  CORBA
+    O CORBA funciona como um middleware para comunicação entre aplicações distribuídas, independentemente da linguagem ou plataforma. Ele usa um Object Request Broker (ORB),
+    que gerencia a comunicação entre o cliente e o servidor,utilizando definições feitas em uma Interface Definition Language (IDL).
+    O processo envolve a compilação de um arquivo IDL para gerar "stubs" do lado do cliente e "skeletons" do lado do servidor,que lidam com a tradução de chamadas e dados de forma transparente. 
+
+  gRPC
+    O gRPC funciona como um sistema de chamada de procedimento remoto (RPC) de alto desempenho, onde um cliente pode chamar um método diretamente em um servidor,
+    como se fosse um objeto local. Isso é viável através da definição de um "contrato" de serviço usando Protocol Buffers (em arquivos .proto), que especifica os métodos, entradas e saídas.
+    O compilador de Protocol Buffers gera código para cliente e servidor a partir desse contrato, facilitando a comunicação entre sistemas escritos em linguagens diferentes.
+    A comunicação utiliza o protocolo HTTP/2, permitindo eficiência e recursos como multiplexação e streaming, o que torna o gRPC ideal para microsserviços e aplicações distribuídas.
+
+Um monolito, na programação, é uma arquitetura de software onde toda a aplicação é construída como uma única unidade unificada, com todas as funcionalidades (como autenticação, pagamento, etc.) contidas em uma única base de código. Essa abordagem é simples para 
+começar, pois facilita o desenvolvimento inicial e a implantação em um único pacote. No entanto, pode se tornar complexa, difícil de manter e escalar à medida que o projeto cresce. 
+
+  Características
+Unidade única: Todo o código (lógica de negócios, interface do usuário, acesso a dados) reside em um único aplicativo. 
+Comunicação: As funcionalidades se comunicam diretamente dentro do mesmo sistema, o que pode tornar as consultas e chamadas internas rápidas. 
+Implantação: Atualizações envolvem a implantação de toda a aplicação, ou seja, um único pacote de deploy. 
+
+  Vantagens
+Simplicidade inicial: É mais fácil e rápido começar um projeto novo com uma arquitetura monolítica. 
+Desenvolvimento inicial simplificado: Menos complexidade no início e menos necessidade de comunicação entre equipes, pois tudo está em um só lugar. 
+Gerenciamento mais simples: Gerenciar uma única infraestrutura é geralmente mais fácil e barato do que gerenciar múltiplas infraestruturas, como nos microsserviços. 
+
+  Desvantagens
+Dificuldade de manutenção: À medida que o código cresce, o monolito pode se tornar difícil de entender e manter. 
+Conflitos de desenvolvimento: Com muitos desenvolvedores trabalhando na mesma base de código, aumenta a probabilidade de conflitos nas alterações. 
+Atualizações restritivas: Para atualizar uma parte do sistema, é necessário implantar toda a aplicação, o que pode ser demorado. 
+Dificuldade de escalar: Escalar partes específicas do sistema pode ser um desafio, pois a escala envolve todo o aplicativo. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   
