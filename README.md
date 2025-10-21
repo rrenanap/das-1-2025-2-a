@@ -138,10 +138,6 @@ Half-open, Estado de alerta
 
  06/10/2025
 
-Claro! Aqui vai um resumo do texto que você forneceu:
-
----
-
 **Resumo sobre características da arquitetura de software**
 
 Quando uma empresa decide resolver um problema com software, inicia-se uma definição de requisitos, 
