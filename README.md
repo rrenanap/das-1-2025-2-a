@@ -269,6 +269,19 @@ Um problema comum é o antipadrão chamado "sinkhole", onde as requisições ape
 
 A arquitetura em camadas é ideal para sistemas simples, com restrições de tempo e orçamento, e equipes com familiaridade com o modelo. Para sistemas mais complexos e de maior escala, arquiteturas mais modulares e distribuídas são mais indicadas.
 
+______________________________________________________________________________
+
+04/11/2025
+
+Um HashMap é uma estrutura de dados que armazena informações em pares de chave-valor, onde cada chave é única e está associada a um valor correspondente. A principal vantagem é a rapidez com que ele consegue adicionar, buscar e remover elementos, pois utiliza um método de hashing para encontrar o local de armazenamento de forma eficiente. Isso permite um desempenho geralmente em tempo constante, o que o torna ideal para buscar informações rapidamente, como um dicionário.
+
+Como funciona:
+
+Armazenamento: Ele armazena dados como pares (chave, valor). Por exemplo, você pode armazenar {"código postal": "12345-678"} onde "código postal" é a chave e "12345-678" é o valor.
+Hashing: Quando você adiciona um par chave-valor, o valor da chave é processado por uma função hash, que retorna um código hash (um número).
+Localização: Esse código hash é usado para determinar em qual local (ou "bucket") o par deve ser armazenado dentro da estrutura.
+Recuperação: Para buscar um valor, o HashMap calcula novamente o código hash da chave fornecida e vai diretamente ao local correspondente para encontrar o valor.
+Eficiência: Isso evita a necessidade de percorrer toda a lista de dados para encontrar um valor. A busca por um elemento é muito rápida, mesmo para um grande número de itens. 
 
 
 

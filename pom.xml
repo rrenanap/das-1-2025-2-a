@@ -13,5 +13,9 @@
         <module>designpatterns</module>
         <module>eventos</module>
         <module>pipeline</module>
+        <module>microkernel-plugin</module>
+        <module>microkernel-kernel</module>
+        <module>microkernel-interface</module>
     </modules>
+
 </project>
