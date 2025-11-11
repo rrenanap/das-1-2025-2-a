@@ -283,8 +283,20 @@ Localização: Esse código hash é usado para determinar em qual local (ou "buc
 Recuperação: Para buscar um valor, o HashMap calcula novamente o código hash da chave fornecida e vai diretamente ao local correspondente para encontrar o valor.
 Eficiência: Isso evita a necessidade de percorrer toda a lista de dados para encontrar um valor. A busca por um elemento é muito rápida, mesmo para um grande número de itens. 
 
+______________________________________________________________________________
 
+10/11/2025
 
+Arquitetura de Microsserviços: Independência e Escalabilidade no Desenvolvimento de Software
+
+A arquitetura de microsserviços é um estilo de desenvolvimento de software que divide um sistema em vários serviços pequenos
+independentes e voltados para domínios específicos. Cada microsserviço possui seu próprio código, banco de dados e lógica
+funcionando de forma autônoma e comunicando-se com os outros por meio de APIs ou mensagens. Inspirada no Domain-Driven Design (DDD)
+essa abordagem prioriza o desacoplamento entre as partes do sistema, permitindo maior escalabilidade, flexibilidade e facilidade de manutenção.
+
+Embora ofereça muitos benefícios, como implantação e atualização independentes, a arquitetura de microsserviços também traz desafios
+como a complexidade na comunicação entre serviços, controle transacional e impactos na performance. Por isso, seu sucesso depende
+de boas práticas de automação, observabilidade e um desenho cuidadoso da granularidade dos serviços.
 
 
 
